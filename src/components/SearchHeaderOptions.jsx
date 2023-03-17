@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import {AiOutlineSearch} from 'react-icons/ai';
+import {AiOutlineSearch,AiFillCamera} from 'react-icons/ai';
 import { usePathname,useRouter,useSearchParams } from 'next/navigation';
 
 export default function SearchHeaderOptions() {
@@ -21,7 +21,7 @@ export default function SearchHeaderOptions() {
       <p>All</p>
     </div>
     <div onClick={()=>selectTab("Images")} className={`${pathName === "/search/image" && "text-blue-600 border-b-blue-600"} flex items-center space-x-1 border-b-4 border-transparent pb-3 px-2 cursor-pointer active:text-blue-500`}>
-      <AiOutlineSearch className='text-md' />
+      <AiFillCamera className='text-md' />
       <p>Images</p>
     </div>
     </div>

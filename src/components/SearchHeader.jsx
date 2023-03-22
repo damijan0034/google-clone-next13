@@ -12,7 +12,7 @@ export default function SearchHeader() {
     <header className='sticky top-0 bg-white'>
         <div className='w-full flex items-center justify-center p-6'>
             <Link href='/'>
-                <Image height="40" width="120" src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png' />
+                <Image src='/googile.svg' alt='googile' width='80' height='40' />
             </Link>
             <div className='flex-1'>
                 <SearchBox />
